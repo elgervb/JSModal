@@ -132,7 +132,10 @@ $.fn.modal = function(options) {
             return v.toString(16);
         });
       }
-  
+    
+    /*
+     * Close the model
+     */
     function closeModal(modal, options) {
       modal.removeClass('modal-show');
 
